@@ -1,0 +1,79 @@
+:root {
+  --bgcolor: #151515;
+  --bgcolor2: #202020;
+}
+body {
+  background-color: var(--bgcolor);
+  color: white;
+}
+
+.navbar {
+  background-color: var(--bgcolor2) !important;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar a,
+.navbar-nav,
+.nav-link.show {
+  color: white !important;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+.navbar-nav li {
+  padding: 10px;
+}
+
+.nav-link:hover {
+  color: rgb(192, 116, 255) !important;
+}
+
+.navbar,
+.navbar-expand-lg,
+.bg-body-tertiary {
+  padding: 0 5vw 0 5vw;
+}
+
+.carousel-item {
+  border-radius: 20px;
+}
+
+.carousel-item img {
+  border-radius: 30px;
+  object-fit: cover;
+  height: 500px;
+  border-radius: inherit;
+}
+
+.navbar-brand img {
+  height: 80px;
+  padding: 20px;
+}
+
+#carouselExample > button > span.carousel-control-prev-icon,
+#carouselExample > button > span.carousel-control-next-icon {
+  filter: brightness(70%);
+  transition: filter 300ms;
+}
+
+.h1 {
+  font-size: 48pt;
+  padding-bottom: 30px;
+}
+
+.text-paragraph {
+  font-size: 18pt;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.full-width-banner {
+  height: 600px;
+  object-fit: cover;
+}
