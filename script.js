@@ -1,4 +1,3 @@
-import Chart from 'chart.js/auto';
 
 /*let urlName = "Fritz";
 let url = "https://api.agify.io/?name=" + urlName;
@@ -41,7 +40,7 @@ async function fetchData() {
       triple.push([temps[i], winds[i], times[i]]);
     }
 
-    return triple;
+    return [temps, winds, times];
 
   } catch (e) {
     console.error("ERROR " + e);
@@ -50,6 +49,6 @@ async function fetchData() {
 }
 
 fetchData().then(triple => {
-  console.log(triple);
-});
+  // console.log(triple);
 
+});
