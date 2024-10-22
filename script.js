@@ -9,7 +9,7 @@ fetch(url)
   );
 */
 
-let key = "1d14b7f6fe48130a8dda5e925658331a";
+let key = "APIKEY";
 let city = "Essen";
 let lat = 51.4698;
 let lon = 6.9517;
