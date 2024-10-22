@@ -10,9 +10,9 @@ fetch(url)
 */
 
 let key = "APIKEY";
-let city = "Essen";
-let lat = 51.4698;
-let lon = 6.9517;
+let city;
+let lat ;
+let lon ;
 let temps = [];
 let winds = [];
 let times = [];
